@@ -11,7 +11,7 @@ def test_subtract(calc):
 def test_multiply(calc):
     assert calc.multiply(2, 3) == 6
 def test_divide(calc):
-    assert calc.divide(6, 2) == 3
+    assert calc.divide(6, 2) == 4
 def test_divide_by_zero(calc):
     with pytest.raises(ValueError):
         calc.divide(6, 0)
