@@ -1,6 +1,6 @@
 import pytest
 from calc import Calculator
-
+#komentar
 @pytest.fixture
 def calc():
     return Calculator()
